@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang=fr dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice1p3</title>
+</head>
+<body>
+  <label for='button'>Nombre de click(s)</label>
+      <input type="button" id="button" name="button" />
+
+  <script src="assets\js\jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+   var score = 0;
+    $('#button').click(function(){
+       score++;
+       $('#button').val(score);
+});
+
+
+    </script>
+  </body>
+  </html>
